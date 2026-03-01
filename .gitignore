@@ -1,0 +1,33 @@
+# Dependencies
+node_modules/
+dist/
+dist-ssr/
+*.local
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# Images Backup
+frontend/public/works/photo-editing-backup/
+frontend/public/works/photo-editing/*.jpg
+frontend/public/works/photo-editing/*.jpeg
+
+# Video Assets (Large files > 100MB should be on Cloudinary)
+frontend/public/works/video-editing/*.mp4
+frontend/public/works/video-editing/*.webm
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Editor
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
